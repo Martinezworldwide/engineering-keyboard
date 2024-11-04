@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbol Keyboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Custom Symbol Keyboard</h1>
+    <textarea id="inputArea" placeholder="Click symbols to insert..."></textarea>
+    
+    <h2>Mathematics Keyboard</h2>
+    <div class="keyboard" id="mathKeyboard">
+        <button onclick="insertSymbol('√')">√</button>
+        <button onclick="insertSymbol('π')">π</button>
+        <button onclick="insertSymbol('∞')">∞</button>
+        <!-- Add more buttons here for math symbols -->
+    </div>
+
+    <h2>Chemistry Keyboard</h2>
+    <div class="keyboard" id="chemistryKeyboard">
+        <button onclick="insertSymbol('H₂O')">H₂O</button>
+        <button onclick="insertSymbol('→')">→</button>
+        <button onclick="insertSymbol('⇌')">⇌</button>
+        <!-- Add more buttons here for chemistry symbols -->
+    </div>
+
+    <h2>Physics Keyboard</h2>
+    <div class="keyboard" id="physicsKeyboard">
+        <button onclick="insertSymbol('g')">g</button>
+        <button onclick="insertSymbol('∇')">∇</button>
+        <button onclick="insertSymbol('→v')">→v</button>
+        <!-- Add more buttons here for physics symbols -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
